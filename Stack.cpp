@@ -30,7 +30,7 @@ class Stack{
             }
         }
         void Pop(){
-            if(top<=0){
+            if(top<0){
                 cout<<"Underflow"<<endl;
             }else{
                 top--;
