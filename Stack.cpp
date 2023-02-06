@@ -22,6 +22,13 @@ class Stack{
             }    
             
         }
+        void Change(T value){
+            if(top<0){
+                cout<<"Stack Empty"<<endl;    
+            }else{
+                arr[top] = value;    
+            }
+        }
         void Pop(){
             if(top<=0){
                 cout<<"Underflow"<<endl;
