@@ -41,21 +41,3 @@ class Stack{
             return top == -1;
         }
 };
-
-int main() {
-    Stack<int> stack(10);
-    stack.Push(5);
-    cout<<stack.Peep()<<endl;
-    stack.Pop();
-    cout<<stack.Peep()<<endl;
-    
-    Stack<string> stack_2(10);
-    stack_2.Push("Shivam");
-    cout<<stack_2.Peep();
-
-    Stack<double> stack_3(1);
-    stack_3.Push(20.00);
-    stack_3.Push(10.00);
-    cout<<stack_3.Peep();
-    return 0;
-}
